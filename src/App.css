@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.navlink:hover, .navlink-active {
+  display: block;
+  height: 40px;
+  padding-top: 19px;
+  cursor: pointer;
+  border-left: solid 4px #0044FF;
+  background-color: #CACACA;
+  color: #0044FF;
+  align-items: center;
+}
+
+.navlink {
+  display: block;
+  height: 40px;
+  padding-top: 19px;
+  cursor: pointer;
+  align-items: center;
 }
